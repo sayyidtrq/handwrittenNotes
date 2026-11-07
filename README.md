@@ -4,6 +4,8 @@ A private website for two people: `bf` and `gf`. Write letters, mark favorites, 
 
 Repository: https://github.com/sayyidtrq/handwrittenNotes.git
 
+Live site: https://handwritten-notes-mu.vercel.app
+
 ## Context
 
 - [Product brief](docs/PROJECT.md)

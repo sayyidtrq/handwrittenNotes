@@ -2,3 +2,4 @@ project_id = "handwritten-notes"
 
 [auth]
 enable_signup = false
+site_url = "https://handwritten-notes-mu.vercel.app"

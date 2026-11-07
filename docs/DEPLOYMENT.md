@@ -64,4 +64,7 @@ Run `npm run test:backend` to repeat these checks. The script removes its test d
 Keep the database password, seed passwords, and service-role key in the ignored `.env.local` file.
 Never include their values in commits or CI logs.
 
-The first production build is pending the setup commit push.
+Production: https://handwritten-notes-mu.vercel.app
+
+The first production deployment and GitHub CI passed on 2026-11-07.
+Both accounts use the password selected by the owner. Its value is not in this repo.

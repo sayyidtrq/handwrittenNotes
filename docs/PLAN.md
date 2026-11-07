@@ -48,4 +48,4 @@ The task is complete when the requested features work with real storage and logi
 
 ## Next action
 
-Push the setup commit and check the first Vercel production build. Custom avatar upload, automatic photo compression and an email password-recovery flow are not implemented.
+The production site is live at https://handwritten-notes-mu.vercel.app. GitHub CI and the Vercel build passed. Custom avatar upload, automatic photo compression and an email password-recovery flow are not implemented.
