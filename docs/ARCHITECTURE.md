@@ -1,6 +1,6 @@
 # Architecture proposal
 
-The user selected Vercel and Supabase. The frontend and Supabase client code are ready. The repo includes the database schema, access rules, and seed script. Cloud setup and live checks are pending.
+The user selected Vercel and Supabase. Both projects are configured. The repo includes the database schema, access rules, and seed script. Live backend checks pass. Vercel uses the native GitHub integration for deployments.
 
 ## Recommended deployment
 

@@ -12,7 +12,8 @@
     "check:deploy": "node scripts/check-deployment-env.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test": "node --test scripts/check-deployment-env.test.mjs"
+    "test": "node --test scripts/check-deployment-env.test.mjs",
+    "test:backend": "node --env-file=.env.local scripts/verify-backend.mjs"
   },
   "dependencies": {
     "@next/env": "16.4.5",

@@ -9,7 +9,7 @@
 - Interactive Next.js frontend implemented with handwriting composer, CRUD, favorites, gallery and editable profiles.
 - Preview served at localhost:3000, bound to LAN for phone access.
 - Supabase client integration, schema with RLS, private bucket and seed script implemented.
-- No cloud resources or deployment yet. Live Auth, RLS and Storage verification require Supabase configuration.
+- Vercel and Supabase projects are configured. Live login, data access, and private storage checks pass.
 - Production build and TypeScript passed.
 - Browser QA at 375px and 1440px: visually inspected letters, composer, gallery and profile. Mobile had no horizontal overflow. Create, reload persistence, edit, favorite, account favorite isolation, and delete exercised with disposable local preview data.
 - Fixed preview UUID generation for HTTP LAN phone access. Native randomUUID requires a secure context, while getRandomValues works on LAN HTTP.
@@ -48,4 +48,4 @@ The task is complete when the requested features work with real storage and logi
 
 ## Next action
 
-User can inspect the working frontend now. Configure Supabase using docs/SETUP.md, execute connected access/persistence checks, then publish to Vercel. Custom avatar upload, automatic photo compression and an email password-recovery flow are not implemented.
+Push the setup commit and check the first Vercel production build. Custom avatar upload, automatic photo compression and an email password-recovery flow are not implemented.

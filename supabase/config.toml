@@ -1,0 +1,4 @@
+project_id = "handwritten-notes"
+
+[auth]
+enable_signup = false

@@ -9,8 +9,8 @@ if (!url || !key || !bf || !gf)
   throw new Error(
     "Set the URL, service role key, and both seed passwords in .env.local.",
   );
-if (bf.length < 10 || gf.length < 10)
-  throw new Error("Each seed password must have at least 10 characters.");
+if (bf.length < 8 || gf.length < 8)
+  throw new Error("Each seed password must have at least 8 characters.");
 const client = createClient(url, key, {
   auth: { persistSession: false, autoRefreshToken: false },
 });

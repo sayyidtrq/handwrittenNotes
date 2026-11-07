@@ -51,6 +51,17 @@ Database changes are manual. Do not run destructive migrations from a pull reque
 
 ## Current state
 
-The repository contains the CI workflow and Vercel build settings.
-The Vercel and Supabase projects are not connected yet.
-Browser control stopped before account setup because it could not verify the Chrome URL.
+The Vercel project `handwritten-notes` connects to this GitHub repo.
+It uses Next.js, Node.js 24, and the build commands in `vercel.json`.
+The Supabase project `xmbsuawewaaiemqiozxw` runs in Singapore under the confirmed Free organization.
+Public signup is disabled. Both accounts exist.
+Production and preview builds use the same Supabase project.
+Only the public URL and anon key are stored in Vercel.
+
+The live backend checks passed on 2026-11-07.
+They covered login, blocked anonymous reads, note ownership, separate favorites, profile ownership, and private photo storage.
+Run `npm run test:backend` to repeat these checks. The script removes its test data.
+Keep the database password, seed passwords, and service-role key in the ignored `.env.local` file.
+Never include their values in commits or CI logs.
+
+The first production build is pending the setup commit push.

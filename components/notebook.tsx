@@ -955,7 +955,7 @@ export default function Notebook() {
                       <input
                         type="password"
                         autoComplete="new-password"
-                        minLength={10}
+                        minLength={8}
                         value={newPassword}
                         onChange={(e) => setNewPassword(e.target.value)}
                       />
